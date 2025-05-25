@@ -1,0 +1,12 @@
+str = 'my23name45is'
+output=''
+alphabet=[char for char in reversed(str) if char.isalpha()]
+print(alphabet)
+i=0
+for char in str:
+    if char.isalpha():
+       output=output + alphabet[i]
+       i=i+1
+    else:
+        output=output+char
+print (output
