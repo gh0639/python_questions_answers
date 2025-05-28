@@ -1,0 +1,7 @@
+list=[1,2,2,2,3,3,3,4,5,5,5,]  #output [1,4]
+mylist=[]
+for num in list:
+  if list.count(num)==1:
+    mylist.append(num)
+
+print(mylist)
