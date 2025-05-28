@@ -1,0 +1,15 @@
+string = "a,a,a,b,b,c,c,c"
+list = string.split(',')
+
+char_count = {}
+for ch in list:
+    if ch in char_count:
+        char_count[ch] = char_count[ch]+ 1
+    else:
+        char_count[ch] =  1  # {a:1}      
+
+final_list = [f"{char}:{count}" for char, count in char_count.items()]
+
+print(",".join(final_list))
+
+     
