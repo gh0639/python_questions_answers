@@ -1,0 +1,12 @@
+list=["hello",10,20,40,20,60,40,30]
+list2=[]
+for ele in list:
+    if list.count(ele)>1 and ele not in list2:
+        list2.append(ele)
+print(list2)
+#OR
+for i in range(len(list)):
+    for j in range(i+1, len(list)):
+        if list[i]==list[j] and list[i] not in list2:
+            list2.append(list[i])
+print(list2)
