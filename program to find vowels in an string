@@ -1,0 +1,7 @@
+str="I love you"
+count=0
+vowels=['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+for char in str:
+    if char in vowels:
+      count+=1
+print(count)
