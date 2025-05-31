@@ -1,0 +1,12 @@
+#we two way to do.
+lang1=['marathi', 'hindi', 'gujrati', 'urdu']
+lang2=['english', 'french', 'japanese']
+
+# for ele in lang2:
+#     lang1.append(ele)
+# print(lang1)
+
+#OR
+
+# lang1.extend(lang2)
+# print(lang1)
