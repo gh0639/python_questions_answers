@@ -1,0 +1,15 @@
+list=[4,12,43.5,19,100]
+ # print(max(list))
+ # list.sort(reverse=True)
+ # print(list[0])
+ # max=list[0]
+ # for ele in list:
+ #     if ele>max:
+ #         max=ele
+ # print(max)        
+
+# min=list[0]
+# for ele in list:
+#     if ele<min:
+#         max=ele
+# print(min)  
