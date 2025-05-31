@@ -1,0 +1,10 @@
+list=['apple','apple','cat', 'cat','man']
+dict={}
+for word in list:
+    if word not in dict:
+        dict[word]=1
+    else:
+        dict[word]+=1
+print(dict)
+
+#{'apple': 2, 'cat': 2, 'man': 1}
