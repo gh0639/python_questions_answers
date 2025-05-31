@@ -1,0 +1,15 @@
+##there are multiple way
+
+str=input("enter the string: ")  ##"I wonder how this text looks like backwards"
+
+print(str[::-1])   #"sdrawkcab ekil skool txet siht woh rednow I"
+
+str2=str.split()
+
+print(str2[::-1])  #['backwards"', 'like', 'looks', 'text', 'this', 'how', 'wonder', 
+'"I']
+
+my_list=[]
+for ele in str2:
+    my_list.append(ele[::-1])
+print(my_list)        #['I"', 'rednow', 'woh', 'siht', 'txet', 'skool', 'ekil', '"sdrawkcab']
