@@ -1,5 +1,13 @@
 ##there are multiple way
 
+str="codeyug"
+reverse=""
+for char in str:
+    reverse=char+reverse
+print(reverse)
+
+#OR
+
 str=input("enter the string: ")  ##"I wonder how this text looks like backwards"
 
 print(str[::-1])   #"sdrawkcab ekil skool txet siht woh rednow I"
