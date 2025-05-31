@@ -1,0 +1,8 @@
+my_dict = { "key1": [1, 2, 3],"key2": ["a", "b", "c"],"key3":25}
+
+count=0
+for i in my_dict:
+    if isinstance(my_dict[i],list):
+        count+=1
+
+print(count)
