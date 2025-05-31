@@ -1,0 +1,14 @@
+list=[3,5,8,12,15]
+even=[]
+odd=[]
+for ele in list:
+    if ele%2==0:
+     even.append(ele*ele)
+    else:
+       odd.append(ele*ele)
+print(even)
+print(odd)
+
+#OR
+print([ele*ele for ele in list if ele%2==0])
+print([ele*ele for ele in list if ele%2!=0])
