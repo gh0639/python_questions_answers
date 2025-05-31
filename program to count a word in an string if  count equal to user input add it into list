@@ -1,0 +1,17 @@
+str=input("enter a string: ")
+count=int(input("enter count: "))
+str1=str.split()
+dict={}
+for word in str1:
+    if word in dict:
+        dict[word]+=1
+    else:
+        dict[word]=1
+list=[]
+for key in dict:
+    if dict[key]>=count:
+        list.append(key)
+if len(list)>0:
+    print(list)
+else:
+    print("NA")
