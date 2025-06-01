@@ -1,0 +1,10 @@
+str="A7B1R3"  #output ABR137
+char=[]
+digit=[]
+for ele in str:
+    if ele.isalpha():
+        char.append(ele)
+    else:
+         digit.append(ele)
+result= (sorted(char)+sorted(digit))
+print(''.join(result))
