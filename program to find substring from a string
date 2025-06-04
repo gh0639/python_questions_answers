@@ -1,0 +1,14 @@
+def get_substring(str, start, end):
+    result=""
+    index=0
+    for char in str:
+      if index>=start and index<=end:
+         result=result+char
+         index=index+1
+    return result
+     
+str="i love you my friend"
+start=0
+end=9
+substring=get_substring(str, start, end)
+print(substring)
