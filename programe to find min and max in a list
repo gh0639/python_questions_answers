@@ -13,3 +13,18 @@ list=[4,12,43.5,19,100]
 #     if ele<min:
 #         max=ele
 # print(min)  
+
+OR
+
+list = [4, 12, 43.5, 19, 100]
+max_val = list[0]
+min_val = list[0]
+for ele in list:
+    if ele > max_val:
+        max_val = ele
+    else:
+        if ele < min_val:
+            min_val = ele
+
+print("Maximum value is:", max_val)
+print("Minimum value is:", min_val)
